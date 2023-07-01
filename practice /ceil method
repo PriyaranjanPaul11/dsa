@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+   
+   double x=2.333,y=5.273,z=1.2233;
+   
+   cout<<ceil(x)<<endl;
+   cout<<ceil(y)<<endl;
+   cout<<ceil(z)<<endl;
+   
+   double a=-2.333,b=-5.273,c=-1.2233;
+   
+   cout<<ceil(a)<<endl;
+   cout<<ceil(b)<<endl;
+   cout<<ceil(c)<<endl;
+
+    return 0;
+}
