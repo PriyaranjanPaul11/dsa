@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    
+    int a=10;
+    if(a>15)
+    {
+        cout<<"a is less then 15";
+        
+    }
+    cout<<"I am not in if";
+   
+    
+    return 0;
+}
