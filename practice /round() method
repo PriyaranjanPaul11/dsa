@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main() {
+   
+   double x=2.333,y=5.273,z=1.2233;
+   
+   cout<<round(x)<<endl;
+   cout<<round(y)<<endl;
+   cout<<round(z)<<endl;
+   
+   double a=-2.333,b=-5.273,c=-1.2233;
+   
+   cout<<round(a)<<endl;
+   cout<<round(b)<<endl;
+   cout<<round(c)<<endl;
+
+    return 0;
+}
