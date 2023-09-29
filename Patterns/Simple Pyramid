@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+void pyPart(int n)
+{
+    //outer loop to handle number of rows
+    for(int i=0;i<n;i++){
+        //inner loop to handle number of columns 
+        for(int j=0;j<=i;j++){
+            
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+}
+int main() {
+    
+    int n;
+    cout<<"Enter no. of rows to be print in patterns"<<endl;
+    cin>>n;
+    pyPart(n);
+    
+
+    return 0;
+}
