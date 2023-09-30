@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    vector<int>myVector{1,2,3,4,5};
+    
+    auto it=myVector.begin();
+    myVector.erase(it);
+    for(auto x:myVector)
+    cout<<x<<" ";
+    
+    return 0;
+}
