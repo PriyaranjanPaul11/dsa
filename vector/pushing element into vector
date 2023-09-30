@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    vector<int>myVector{1,2,3,4,5};
+    
+    myVector.push_back(6);
+    for(auto x:myVector)
+    cout<<x<<" ";
+    
+    return 0;
+}
