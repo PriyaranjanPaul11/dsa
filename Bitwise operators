@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    
+    cout<<"XOR="<<(a^b)<<endl;
+    cout<<"AND="<<(a&b)<<endl;
+    cout<<"OR="<<(a|b)<<endl;
+    
+    int num;
+    cout<<"Enter number:";
+    cin>>num;
+    cout<<"NOT="<<(~num)<<~(num)<<endl;
+    cout<<"Left shift="<<(num<<1)<<endl;
+    cout<<"Right shift="<<(num>>1)<<endl;
+
+    return 0;
+}
