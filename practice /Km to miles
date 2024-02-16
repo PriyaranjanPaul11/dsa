@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+float KMtoMiles(float km){
+    float _1KmMile=0.621371;
+    float miles=km*_1KmMile;
+    
+    return miles;
+}
+
+int main(){
+    float km;
+    cout<<"Enter KM:"<<endl;
+    cin>>km;
+    float miles=KMtoMiles(km);
+    
+    cout<<"miles="<<miles<<endl;
+}
