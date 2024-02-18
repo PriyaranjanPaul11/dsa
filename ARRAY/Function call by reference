@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n=5; //normal integer variable
+    
+    int &k=n; //k is a reference variable referring to n
+    int &c=n; //c is a reference variable referring to n
+    
+    cout<<"n: "<<n<<endl;
+    cout<<"k: "<<k<<endl;
+    cout<<"c: "<<c<<endl;
+    
+    k++;
+    
+    cout<<"n: "<<n<<endl;
+    cout<<"k: "<<k<<endl;
+    cout<<"c: "<<c<<endl;
+ 
+    return 0;
+}
